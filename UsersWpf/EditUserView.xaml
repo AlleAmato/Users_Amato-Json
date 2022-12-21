@@ -35,7 +35,7 @@
         <Label Grid.Row="1" Grid.Column="0">Id</Label>
         <Label Grid.Row="1" Grid.Column="2">Nome</Label>
         <Label Grid.Row="1" Grid.Column="4">Cognome</Label>
-        <TextBox Text="{Binding SelectedUser.Id}" Grid.Row="2" Grid.Column="0" />
+        <TextBox Text="{Binding SelectedUser.Id}" IsEnabled="False"  Grid.Row="2" Grid.Column="0" />
         <TextBox Text="{Binding SelectedUser.FirstName}" Grid.Row="2" Grid.Column="2" />
         <TextBox Text="{Binding SelectedUser.LastName}" Grid.Row="2" Grid.Column="4" />
 
